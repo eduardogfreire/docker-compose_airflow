@@ -140,7 +140,7 @@ services:
       MYSQL_DATABASE: database_airflow
       MYSQL_ROOT_PASSWORD: senha
     ports:
-      - '3306:3306'
+      - '3316:3316'
 
 volumes:
   postgres-db-volume:
